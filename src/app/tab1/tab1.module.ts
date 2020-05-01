@@ -4,14 +4,20 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
-import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
+
+// import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
+
+// import { GoogleMapComponent } from '../google-map/google-map.component';
+
+
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
-    ExploreContainerComponentModule,
+    // ExploreContainerComponentModule,
+    // GoogleMapComponent,
     RouterModule.forChild([{ path: '', component: Tab1Page }])
   ],
   declarations: [Tab1Page]
